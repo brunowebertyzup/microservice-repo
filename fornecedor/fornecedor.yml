@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3307/fornecedor?createDatabaseIfNotExist=true
+    username: root
+    password: bruno@zup531
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
